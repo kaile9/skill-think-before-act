@@ -271,4 +271,6 @@ UNDERSTOOD for any directional output. REFLECTION after analysis.
 APPROVAL_VERB must be standalone imperative. All else → AMBIGUOUS → IDLE.
 falsification_test ⊂ READ_ONLY. REPORT ack ∉ AMBIGUOUS.
 Disclose negatives. Seek disconfirmation. ¬self_certify.
+
+——writed by KL9 2026/5/30
 ```
