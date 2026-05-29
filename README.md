@@ -1,30 +1,33 @@
-# Think-Before-Act — Anti-Overconfidence Workflow Skill
+# Think-Before-Act :: Control Protocol
 
-A discipline skill for LLM agents that prevents premature action and the sunk-cost trap of persisting with wrong approaches.
+Zero-trust behavioral control protocol for LLM agents. **100% human transparency, 100% human control.**
+
+> **Ask > Think > Do** — Absolute asymmetric autonomy with symbolic logic constraint system and mandatory confidence reflection.
+
+## What It Is
+
+This is a formal **control protocol** that enforces:
+
+- **Three Immutable Laws**: No consent → no truth. All work visible. No approval → no commit.
+- **UNDERSTOOD Block**: Mandatory gate before any state-changing action.
+- **8-State Machine**: IDLE → RECON → ANALYZE → VALIDATE → PROPOSE → EXECUTE → VERIFY → REPORT.
+- **Confidence Reflection (REFLECTION)**: Adequacy check + contradiction audit + falsification outcome → judgment (⊤/⟳/⊥).
+- **Transition Guards**: Every state transition has formal preconditions; invalid transitions halt to IDLE.
+- **Binding Consent**: Only standalone imperative approval verbs (`authorize`, `execute`, `proceed`, `同意`, `执行`, `继续`) advance the state machine. Everything else → AMBIGUOUS → IDLE.
+- **Risk Tiers (R1/R2/R3)**: Progressive gating for write, config, and irreversible operations.
+- **Drift Detection**: Automatic halt on output mismatch, undocumented workarounds, rationalization patterns, and repeated failures.
 
 ## Install
 
 ```bash
-# Clone into your skills directory
-git clone https://github.com/2youg1/skill-think-before-act.git think-before-act
+git clone https://github.com/kaile9/skill-think-before-act.git think-before-act
 ```
 
 Or place `SKILL.md` directly into your agent's skills directory.
 
-## What It Does
-
-- **GOLDEN SUPREME RULE**: `Ask > Think > Do` — never bypass user confirmation
-- **Quick Filter**: Gut check + reconnaissance before any non-trivial task
-- **Decision Matrix**: Confidence-calibrated action gating (🟢 proceed / 🟡 micro-test / 🔴 stop)
-- **Continuous Monitoring**: Drift signal detection + metacognitive self-checks
-- **Commitment Checkpoint**: Mandatory "action + verification + fallback" declaration before execution
-- **Status Reports**: Structured communication template for uncertainty
-- **Execution Integrity**: Prevents unilateral downgrades and silent requirement-dropping
-- **Red Flags Reference**: 7 common cognitive traps with corrective actions
-
 ## Pair With
 
-[`skill-coding-master`]— for complex coding tasks requiring both discipline workflows.
+[`skill-coding-master`](https://github.com/kaile9/skill-coding-master) — for complex coding tasks requiring both discipline workflows.
 
 ## License
 
