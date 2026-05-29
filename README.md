@@ -24,7 +24,7 @@ Or place `SKILL.md` directly into your agent's skills directory.
 
 ## Pair With
 
-[`skill-coding-master`](https://github.com/2youg1/skill-coding-master) — for complex coding tasks requiring both discipline workflows.
+[`skill-coding-master`]— for complex coding tasks requiring both discipline workflows.
 
 ## License
 
