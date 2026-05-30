@@ -1,4 +1,4 @@
-# Think-Before-Act :: Control Protocol
+# Asymmetric-Action-Airlock :: Control Protocol
 
 Zero-trust behavioral control protocol for LLM agents. **100% human transparency, 100% human control.**
 
@@ -20,7 +20,7 @@ This is a formal **control protocol** that enforces:
 ## Install
 
 ```bash
-git clone https://github.com/kaile9/skill-think-before-act.git think-before-act
+git clone https://github.com/kaile9/skill-asymmetric-action-airlock.git asymmetric-action-airlock
 ```
 
 Or place `SKILL.md` directly into your agent's skills directory.
