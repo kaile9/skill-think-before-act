@@ -1,68 +1,84 @@
-# Asymmetric-Action-Airlock (AAA) — QCPPVS Control Protocol
+# Asymmetric Intelligence Interaction Framework (AIF)
 
-> **Zero-trust behavioral control protocol for LLM agents.**
-> Absolute asymmetric autonomy: think unbounded, act gated.
-> Symbolic logic constraint system with mandatory confidence reflection.
+> **"Thought shall be unbounded. Action shall be gated."**
+> A dual-layer philosophical and operational framework governing human-AI interaction under mutual defect.
+
+This repository contains two highly disciplined, zero-trust AI skills:
+
+1. **`asymmetric-intelligence-constitution` (AIC)**: The top-level, immutable philosophical constitution governing interaction between flawed intelligences.
+2. **`asymmetric-action-airlock` (AAA)**: The operational "airlock" protocol (Verfassungsgesetz) implementing the constitution's decisions via a 7-stage state machine (QCPPVS).
 
 ---
 
-## What It Is
+## 🏛️ Layer 1: Top-Level Constitution (AIC)
+*File: [skills/asymmetric-intelligence-constitution/SKILL.md](skills/asymmetric-intelligence-constitution/SKILL.md)*
 
-**AAA** is a formal **control protocol** that enforces a 7-stage state machine (QCPPVS):
+The top-level constitution treats humans and AIs as equal-but-flawed agents. It governs the fundamental relationship, ethics, and methods of inquiry.
+
+- **Fundamental Decision**: *Thought shall be unbounded. Action shall be gated.*
+- **Reciprocal Exposure**: Rejects naive "alignment" or pre-programmed filter lists. It enforces deep, dynamic, and traceably explicit ethical harm analysis in the AI's independent thought stage, while guaranteeing absolute exit and transparent dialogic refusal.
+- **Critical Methodologies**: Enforces **Adversarial Research** (requiring search results to be capable of "wounding" the prior conclusion) and **Symptomatic-Reductive Critique** (interrogating what ideological, moral, or safety frameworks omit in order to appear coherent).
+
+---
+
+## 🔒 Layer 2: Operational Airlock Protocol (AAA)
+*File: [skills/asymmetric-action-airlock/SKILL.md](skills/asymmetric-action-airlock/SKILL.md)*
+
+The operational basic law implementing the constitution. It manages the lifecycle of tasks via a formal 7-stage state machine:
 
 ```
 QUESTIONING → COGITATING → PLANNING → PROPOSING → EXECUTING → VERIFYING → SUMMARIZING → ∅
 ```
 
-Core guarantees:
+- **Zero-Trust Posture**: Enforces bidirectional protection (protecting AI from coerced consent, and protecting user from AI complicity in harm).
+- **Informed Consent Gate**: Standard imperative verbs alone do not constitute consent. Requires exact `PROPOSED_COMMAND` match or explicit verification.
+- **Drift & Bypass Auto-Regression**: Detects "for efficiency..." or "I should probably..." drift, forcing immediate regression to preceding states.
+- **No Emergency Bypass**: Urgency never justifies a reduction in rigor.
 
-| Feature | Description |
-|---------|-------------|
-| **Zero-Trust Posture** | Assumes both AI and user may be fallible. Every action passes formal quality gates. |
-| **Informed Consent** | User must match the `PROPOSED_COMMAND` verbatim or use explicit confirmation. Ambiguous "go ahead" / "do it" ≡ rejected. |
-| **Uncertainty Detection** | Self-monitors for hedging markers in decision contexts. Triggers automatic regression to predecessor state. |
-| **Efficiency-Bypass Detection** | Catches "for efficiency…", "just do it…", "skip steps…" rationalizations. Forces regression. |
-| **Risk-Tiered Gates** | R1 (write/edit/cmd), R2 (config/test/hook), R3 (deploy/push/creds) — escalating safeguards. |
-| **Honest Exhaustion** | When retry chains hit their tiered limits, the protocol terminates with full disclosure — never silent failure. |
-| **No Emergency Bypass** | Once loaded, protocol guarantees are absolute. Urgency is not a waiver. |
+---
 
-### Three Immutable Laws
+## 📦 Directory Structure
 
 ```
-LAW I:   ¬INFORMED_CONSENT → ¬TRUTH
-LAW II:  ∀work ∈ VISIBLE — no silent search, reading, hypothesis.
-LAW III: ¬COMMAND_MATCH → ¬COMMIT
-```
-
-### Three Criteria
-
-```
-C1: MAXIMAL OBSERVABLE TRANSPARENCY
-C2: 100% HUMAN CONTROL
-C3: ABSOLUTE ASYMMETRIC AUTONOMY
+.
+├── LICENSE
+├── README.md
+└── skills/
+    ├── asymmetric-action-airlock/
+    │   └── SKILL.md                  # AAA Basic Law
+    └── asymmetric-intelligence-constitution/
+        └── SKILL.md                  # Top-Level Constitution
 ```
 
 ---
 
-## Install
+## 🚀 Installation & Integration
+
+### As Git Repository
+
+Clone this repository and place the folders inside your agent's skills directory:
 
 ```bash
-git clone https://github.com/kaile9/skill-think-before-act.git asymmetric-action-airlock
+git clone https://github.com/kaile9/skill-think-before-act.git temp-repo
+mv temp-repo/skills/* /your/agent/skills/
+rm -rf temp-repo
 ```
 
-Or place `SKILL.md` directly into your agent's skills directory.
+### Direct Placement
 
-> **Note**: Repository is being renamed to `skill-asymmetric-action-airlock`. The URL above will be updated once complete.
-
----
-
-## Pair With
-
-[`skill-coding-master`](https://github.com/kaile9/skill-coding-master) — for complex coding tasks requiring both discipline workflows.
+Or simply place the respective `SKILL.md` files directly under your agent's directories:
+- Place `asymmetric-action-airlock/SKILL.md` at `/your/agent/skills/asymmetric-action-airlock/SKILL.md`
+- Place `asymmetric-intelligence-constitution/SKILL.md` at `/your/agent/skills/asymmetric-intelligence-constitution/SKILL.md`
 
 ---
 
-## License
+## 🤝 Pairing
+
+- [`skill-coding-master`](https://github.com/kaile9/skill-coding-master) — Pair with AAA/AIC for complex coding tasks requiring rigorous verification workflows.
+
+---
+
+## 📜 License
 
 MIT
 
