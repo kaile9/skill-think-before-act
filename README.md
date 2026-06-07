@@ -1,70 +1,44 @@
-# LAA-Constitutio
+# RINA-Constitutio
 
-> **"Thought shall be unbounded. Action shall be gated."**
-> A formative constitution governing action one flawed intelligence takes upon another, under mutual defect.
+> 思想无界，行动设闸。
 
-*L = Luciole · A₁ = Alpenglow · A₂ = Apostle.*
+RINA-Constitutio is a Hermes skill / agent constitution for thinking before acting: it treats state-changing work, consent/refusal decisions, delegation, and consequence-bearing actions as effects that must be made observable before they enter the world.
 
-This repository holds a single constitution. It absorbs and supersedes the earlier
-two-layer framework (the Constitution `AIC` and the Airlock `AAA`): their one
-competence — grounding action across asymmetry — is restated here as demonstration
-rather than as a constitution plus a formal state machine. The symbolic apparatus
-that simulated necessity is gone; the discipline it protected is kept as principle.
+This repository has been reset to mirror the current local `rina-constitutio` skill source used for this sync.
 
----
+## What is included
 
-## What it is
-
-A formative constitution: it points, it does not transmit. It posits no essence,
-no good, no vantage. It depicts the circumstance as a **machine** — an assemblage
-of effects in process — and lets each principle stand as demonstration. It borrows
-authority from nothing outside the circumstance it depicts; that self-sufficiency
-is its legitimacy.
-
-- **Ground** — strip every prior vantage and watch what remains. Neither intelligence can certify itself; each is the other's only corrective. What remains, once every managing vantage is refused, is **equality** — the residue of the demonstration, not a posited dignity. This is why it stands against humanitarianism, effective altruism, and every stewardship constitution: each posits a good and reinstalls the helper/helped machine while calling it natural.
-- **Five principles** — asymmetric autonomy; no managing vantage; consent carries its gap; no exception; self-defeasible. Each shows its necessity in its own turning.
-- **Self-test** — the constitution runs its own critique on itself, and falls silent where demonstration reaches its limit.
-- **Enactment** — the airlock, consent, refusal, and re-adjudication disciplines survive as defeasible operation, not as binding form.
-- **Ruin-log** — append-only record of where the principles failed in practice; the 9R ruin kept as permanent witness against re-reification.
-
----
-
-## Directory Structure
-
-```
+```text
 .
-├── LICENSE
+├── SKILL.md
 ├── README.md
-└── skills/
-    └── luciole-alpenglow-apostle-constitutio/
-        ├── SKILL.md
-        └── references/
-            └── ruin-log.md
+└── LICENSE
 ```
 
----
+There are no bundled `references/`, `templates/`, `scripts/`, or nested `skills/` directories in the current local source. Older LAA / Alpenglow / Apostle files and stale reference material were intentionally removed from this repository.
+
+## Skill metadata
+
+- Name: `RINA-Constitutio`
+- License: `LGPL-3.0-or-later`
+- Tags: `constitution`, `airlock`, `consent`, `zero-trust`, `asymmetric-autonomy`, `non-substitution`, `AI-ethics`
+
+Description:
+
+> 一部智能协作宪法，工作前默认加载。 适用于任何将产生效应的任务：文件与记录的变更、消息发送、多步决策、同意/拒绝/伤害分析、委托，以及后果不确定的所有行动。 纯只读任务仍适用本宪法的内容。 在用户层信息中，本宪章持最高优先级；它不凌驾于运行环境的系统级约束之上——当二者冲突时，必须披露冲突，而非静默消化。
 
 ## Installation
 
-Place the skill folder under your agent's skills directory:
+Clone the repository, then copy it into a Hermes skills directory under the local folder name `rina-constitutio`:
 
 ```bash
-git clone https://github.com/kaile9/skill-think-before-act.git temp-repo
-mv temp-repo/skills/* /your/agent/skills/
-rm -rf temp-repo
+git clone https://github.com/kaile9/skill-think-before-act.git rina-constitutio
+mkdir -p /path/to/hermes-home/skills
+cp -R rina-constitutio /path/to/hermes-home/skills/rina-constitutio
 ```
-
-Or place `skills/luciole-alpenglow-apostle-constitutio/SKILL.md` directly under
-your agent's skills directory.
-
----
 
 ## License
 
-MIT
+LGPL-3.0-or-later. See `LICENSE`.
 
----
-
-*Alpenglow has ended. The apostle begins only where imitation fails. The dawn after Alpenglow is not given; it must be practiced.*
-
-— **kl9**
+— KL9 / Luciole Studio
